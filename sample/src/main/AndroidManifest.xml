@@ -1,6 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.elt.framework">
 
+
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+
     <application
         android:name=".EltApplication"
         android:allowBackup="true"
