@@ -17,10 +17,32 @@
 package com.elt.framework.library.common.io;
 
 import android.os.Build;
-import com.litesuits.common.io.stream.*;
 
-import java.io.*;
-import java.net.*;
+import com.elt.framework.library.common.io.stream.ByteArrayOutputStream;
+import com.elt.framework.library.common.io.stream.StringBuilderWriter;
+
+import java.io.BufferedInputStream;
+import java.io.BufferedReader;
+import java.io.ByteArrayInputStream;
+import java.io.CharArrayWriter;
+import java.io.Closeable;
+import java.io.EOFException;
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
+import java.io.OutputStreamWriter;
+import java.io.PrintWriter;
+import java.io.Reader;
+import java.io.UnsupportedEncodingException;
+import java.io.Writer;
+import java.net.HttpURLConnection;
+import java.net.ServerSocket;
+import java.net.Socket;
+import java.net.URI;
+import java.net.URL;
+import java.net.URLConnection;
 import java.nio.channels.Selector;
 import java.nio.charset.Charset;
 import java.util.ArrayList;
@@ -407,7 +429,7 @@ public class IOUtils {
      * @since 2.0
      */
     public static InputStream toBufferedInputStream(InputStream input) throws IOException {
-        return com.litesuits.common.io.stream.ByteArrayOutputStream.toBufferedInputStream(input);
+        return ByteArrayOutputStream.toBufferedInputStream(input);
     }
 
     /**
@@ -437,27 +459,11 @@ public class IOUtils {
      * @throws IOException  if an I/O error occurs
      */
     public static byte[] toByteArray(InputStream input) throws IOException {
-        com.litesuits.common.io.stream.ByteArrayOutputStream output = new com.litesuits.common.io.stream.ByteArrayOutputStream();
+        ByteArrayOutputStream output = new ByteArrayOutputStream();
         copy(input, output);
         return output.toByteArray();
     }
 
-    /**
-     * Get contents of an <code>InputStream</code> as a <code>byte[]</code>.
-     * Use this method instead of <code>toByteArray(InputStream)</code>
-     * when <code>InputStream</code> size is known.
-     * <b>NOTE:</b> the method checks that the length can safely be cast to an int without truncation
-     * before using {@link com.litesuits.common.io.IOUtils#toByteArray(InputStream, int)} to read into the byte array.
-     * (Arrays can have no more than Integer.MAX_VALUE entries anyway)
-     *
-     * @param input the <code>InputStream</code> to read from
-     * @param size  the size of <code>InputStream</code>
-     * @return the requested byte array
-     * @throws IOException      if an I/O error occurs or <code>InputStream</code> size differ from parameter size
-     * @throws IllegalArgumentException if size is less than zero or size is greater than Integer.MAX_VALUE
-     * @see com.litesuits.common.io.IOUtils#toByteArray(InputStream, int)
-     * @since 2.1
-     */
     public static byte[] toByteArray(InputStream input, long size) throws IOException {
 
         if (size > Integer.MAX_VALUE) {
@@ -535,7 +541,7 @@ public class IOUtils {
      * @since 2.3
      */
     public static byte[] toByteArray(Reader input, Charset encoding) throws IOException {
-        com.litesuits.common.io.stream.ByteArrayOutputStream output = new com.litesuits.common.io.stream.ByteArrayOutputStream();
+        ByteArrayOutputStream output = new ByteArrayOutputStream();
         copy(input, output, encoding);
         return output.toByteArray();
     }

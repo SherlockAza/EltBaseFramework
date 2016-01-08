@@ -17,6 +17,8 @@ import android.os.Build;
 import android.provider.MediaStore;
 import android.util.Log;
 
+import com.elt.framework.library.common.assist.Base64;
+
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;

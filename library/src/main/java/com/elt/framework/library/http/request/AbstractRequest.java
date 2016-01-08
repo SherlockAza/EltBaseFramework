@@ -27,9 +27,9 @@ import com.elt.framework.library.http.request.param.HttpMethods;
 import com.elt.framework.library.http.request.param.HttpParamModel;
 import com.elt.framework.library.http.request.param.HttpReplace;
 import com.elt.framework.library.http.request.param.HttpRichParamModel;
-import com.elt.framework.library.common.HexUtil;
+import com.elt.framework.library.common.utils.HexUtil;
 import com.elt.framework.library.common.HttpUtil;
-import com.elt.framework.library.common.MD5Util;
+import com.elt.framework.library.common.utils.MD5Util;
 import com.elt.framework.library.common.UriUtil;
 import com.elt.framework.library.common.log.Elog;
 

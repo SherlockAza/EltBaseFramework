@@ -1,8 +1,9 @@
-package com.elt.framework.library.common;
+package com.elt.framework.library.common.utils;
 
 /**
  * 作者：addison on 15/12/15 19:40
  * 邮箱：gengxin@elongtian.com
+ * 16进制工具类，16进制和byte、char相互转化
  */
 public class HexUtil {
 

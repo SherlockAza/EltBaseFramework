@@ -1,4 +1,4 @@
-package com.elt.framework.library.common;
+package com.elt.framework.library.common.utils;
 
 import java.io.IOException;
 import java.io.InputStream;
