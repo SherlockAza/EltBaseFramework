@@ -1,4 +1,4 @@
-package com.elt.framework.library.common;
+package com.elt.framework.library.common.utils;
 
 import android.net.Uri;
 

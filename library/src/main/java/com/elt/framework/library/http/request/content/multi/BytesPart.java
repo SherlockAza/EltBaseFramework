@@ -1,7 +1,7 @@
 package com.elt.framework.library.http.request.content.multi;
 
 import com.elt.framework.library.http.data.Consts;
-import com.elt.framework.library.common.StringCodingUtils;
+import com.elt.framework.library.common.utils.StringCodingUtils;
 import com.elt.framework.library.common.log.Elog;
 
 import java.io.IOException;

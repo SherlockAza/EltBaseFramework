@@ -1,4 +1,4 @@
-package com.elt.framework.library.common;
+package com.elt.framework.library.common.utils;
 
 import android.content.Context;
 import android.content.res.Configuration;

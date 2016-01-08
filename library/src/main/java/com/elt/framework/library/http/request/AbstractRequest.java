@@ -30,7 +30,7 @@ import com.elt.framework.library.http.request.param.HttpRichParamModel;
 import com.elt.framework.library.common.utils.HexUtil;
 import com.elt.framework.library.common.HttpUtil;
 import com.elt.framework.library.common.utils.MD5Util;
-import com.elt.framework.library.common.UriUtil;
+import com.elt.framework.library.common.utils.UriUtil;
 import com.elt.framework.library.common.log.Elog;
 
 import java.io.File;

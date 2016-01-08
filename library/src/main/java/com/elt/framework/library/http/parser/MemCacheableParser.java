@@ -1,6 +1,6 @@
 package com.elt.framework.library.http.parser;
 
-import com.elt.framework.library.common.StringCodingUtils;
+import com.elt.framework.library.common.utils.StringCodingUtils;
 import com.elt.framework.library.common.log.Elog;
 
 import org.apache.http.util.ByteArrayBuffer;

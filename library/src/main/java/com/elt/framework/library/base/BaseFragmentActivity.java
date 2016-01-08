@@ -18,7 +18,7 @@ import com.elt.framework.library.loading.VaryViewHelperController;
 import com.elt.framework.library.netstatus.NetChangeObserver;
 import com.elt.framework.library.netstatus.NetStateReceiver;
 import com.elt.framework.library.netstatus.NetUtils;
-import com.elt.framework.library.common.SmartBarUtils;
+import com.elt.framework.library.common.utils.SmartBarUtils;
 import com.readystatesoftware.systembartint.SystemBarTintManager;
 
 import butterknife.ButterKnife;
