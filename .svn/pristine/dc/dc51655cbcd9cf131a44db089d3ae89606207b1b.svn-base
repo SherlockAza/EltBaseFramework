@@ -1,0 +1,14 @@
+package com.elt.framework.library;
+
+import android.app.Application;
+
+/**
+ * 作者：addison on 11/12/15 13:59
+ * 邮箱：gengxin@elongtian.com
+ */
+public class BaseApplication extends Application {
+    @Override
+    public void onCreate() {
+        super.onCreate();
+    }
+}

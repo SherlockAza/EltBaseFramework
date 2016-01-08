@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <integer-array name="gplus_colors">
+        <item>@color/gplus_color_1</item>
+        <item>@color/gplus_color_2</item>
+        <item>@color/gplus_color_3</item>
+        <item>@color/gplus_color_4</item>
+    </integer-array>
+    <!-- From: file:/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/values/swipeback_attrs.xml -->
+    <eat-comment/>
+    <attr format="reference" name="SwipeBackLayoutStyle"/>
+    <!-- From: file:/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/values/pla_attrs.xml -->
+    <eat-comment/>
+    <attr format="reference" name="absListViewStyle"/>
+    <attr format="reference" name="listViewStyle"/>
+    <!-- From: file:/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="base_bg">#ffeeeeee</color>
+    <color name="base_msg_color">#ff999999</color>
+    <color name="common_list_smart_tab_underline_color">#FFFFFF</color>
+    <!-- From: file:/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/values/defaults.xml -->
+    <eat-comment/>
+    <color name="cpb_default_color">#33b5e5</color>
+    <!-- From: file:/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="gplus_color_1">#3e802f</color>
+    <color name="gplus_color_2">#f4b400</color>
+    <color name="gplus_color_3">#427fed</color>
+    <color name="gplus_color_4">#b23424</color>
+    <color name="sr_color_primary">#000000</color>
+    <color name="sr_color_primary_dark">#000000</color>
+    <color name="sr_window_background">#FFFFFF</color>
+    <declare-styleable name="AVLoadingIndicatorView"><attr name="indicator"><flag name="BallPulse" value="0"/><flag name="BallGridPulse" value="1"/><flag name="BallClipRotate" value="2"/><flag name="BallClipRotatePulse" value="3"/><flag name="SquareSpin" value="4"/><flag name="BallClipRotateMultiple" value="5"/><flag name="BallPulseRise" value="6"/><flag name="BallRotate" value="7"/><flag name="CubeTransition" value="8"/><flag name="BallZigZag" value="9"/><flag name="BallZigZagDeflect" value="10"/><flag name="BallTrianglePath" value="11"/><flag name="BallScale" value="12"/><flag name="LineScale" value="13"/><flag name="LineScaleParty" value="14"/><flag name="BallScaleMultiple" value="15"/><flag name="BallPulseSync" value="16"/><flag name="BallBeat" value="17"/><flag name="LineScalePulseOut" value="18"/><flag name="LineScalePulseOutRapid" value="19"/><flag name="BallScaleRipple" value="20"/><flag name="BallScaleRippleMultiple" value="21"/><flag name="BallSpinFadeLoader" value="22"/><flag name="LineSpinFadeLoader" value="23"/><flag name="TriangleSkewSpin" value="24"/><flag name="Pacman" value="25"/><flag name="BallGridBeat" value="26"/><flag name="SemiCircleSpin" value="27"/></attr><attr format="color" name="indicator_color"/></declare-styleable>
+    <declare-styleable name="AbsListView"><attr format="color|reference" name="listSelector"/><attr format="boolean" name="drawSelectorOnTop"/><attr format="boolean" name="stackFromBottom"/><attr format="boolean" name="scrollingCache"/><attr format="boolean" name="textFilterEnabled"/><attr name="transcriptMode"><enum name="disabled" value="0"/><enum name="normal" value="1"/><enum name="alwaysScroll" value="2"/></attr><attr format="color" name="cacheColorHint"/><attr format="boolean" name="fastScrollEnabled"/><attr format="boolean" name="smoothScrollbar"/><attr name="choiceMode"><enum name="none" value="0"/><enum name="singleChoice" value="1"/><enum name="multipleChoice" value="2"/><enum name="multipleChoiceModal" value="3"/></attr><attr format="boolean" name="fastScrollAlwaysVisible"/></declare-styleable>
+    <declare-styleable name="CircularProgressBar"><attr format="reference" name="cpbStyle"/><attr format="color" name="cpb_color"/><attr format="reference" name="cpb_colors"/><attr format="dimension" name="cpb_stroke_width"/><attr format="integer" name="cpb_min_sweep_angle"/><attr format="integer" name="cpb_max_sweep_angle"/><attr format="float" name="cpb_sweep_speed"/><attr format="float" name="cpb_rotation_speed"/></declare-styleable>
+    <declare-styleable name="CropImageView"><attr format="reference" name="imgSrc"/><attr name="cropMode"><enum name="ratio_fit_image" value="0"/><enum name="ratio_4_3" value="1"/><enum name="ratio_3_4" value="2"/><enum name="ratio_1_1" value="3"/><enum name="ratio_16_9" value="4"/><enum name="ratio_9_16" value="5"/><enum name="ratio_free" value="6"/><enum name="ratio_custom" value="7"/><enum name="circle" value="8"/></attr><attr format="color" name="backgroundColor"/><attr format="color" name="overlayColor"/><attr format="color" name="frameColor"/><attr format="color" name="handleColor"/><attr format="color" name="guideColor"/><attr name="guideShowMode"><enum name="show_always" value="1"/><enum name="show_on_touch" value="2"/><enum name="not_show" value="3"/></attr><attr name="handleShowMode"><enum name="show_always" value="1"/><enum name="show_on_touch" value="2"/><enum name="not_show" value="3"/></attr><attr format="dimension" name="handleSize"/><attr format="dimension" name="touchPadding"/><attr format="dimension" name="minFrameSize"/><attr format="dimension" name="frameStrokeWeight"/><attr format="dimension" name="guideStrokeWeight"/><attr format="boolean" name="cropEnabled"/><attr format="float" name="initialFrameScale"/></declare-styleable>
+    <declare-styleable name="ListView"><attr format="dimension" name="dividerHeight"/><attr format="boolean" name="headerDividersEnabled"/><attr format="boolean" name="footerDividersEnabled"/><attr format="reference|color" name="overScrollHeader"/><attr format="reference|color" name="overScrollFooter"/><attr format="color" name="plaContentBackground"/></declare-styleable>
+    <declare-styleable name="MaterialEditText"><attr format="color" name="met_baseColor"/><attr format="color" name="met_primaryColor"/><attr name="met_floatingLabel"><enum name="none" value="0"/><enum name="normal" value="1"/><enum name="highlight" value="2"/></attr><attr format="color" name="met_errorColor"/><attr format="integer" name="met_minCharacters"/><attr format="integer" name="met_maxCharacters"/><attr format="boolean" name="met_singleLineEllipsis"/><attr format="integer" name="met_minBottomTextLines"/><attr format="string" name="met_helperText"/><attr format="color" name="met_helperTextColor"/><attr format="string" name="met_accentTypeface"/><attr format="string" name="met_typeface"/><attr format="string" name="met_floatingLabelText"/><attr format="dimension" name="met_floatingLabelPadding"/><attr format="boolean" name="met_hideUnderline"/><attr format="color" name="met_underlineColor"/><attr format="boolean" name="met_autoValidate"/><attr format="reference" name="met_iconLeft"/><attr format="reference" name="met_iconRight"/><attr format="dimension" name="met_iconPadding"/><attr format="boolean" name="met_clearButton"/><attr format="dimension" name="met_floatingLabelTextSize"/><attr format="color" name="met_floatingLabelTextColor"/><attr format="dimension" name="met_bottomTextSize"/><attr format="boolean" name="met_floatingLabelAlwaysShown"/><attr format="boolean" name="met_helperTextAlwaysShown"/><attr format="boolean" name="met_floatingLabelAnimating"/><attr format="color" name="met_textColor"/><attr format="color" name="met_textColorHint"/><attr format="boolean" name="met_validateOnFocusLost"/><attr format="boolean" name="met_checkCharactersCountAtBeginning"/></declare-styleable>
+    <declare-styleable name="PLAMultiColumnListView"><attr format="integer" name="plaColumnNumber"/><attr format="integer" name="plaLandscapeColumnNumber"/><attr format="dimension" name="plaColumnPaddingLeft"/><attr format="dimension" name="plaColumnPaddingRight"/></declare-styleable>
+    <declare-styleable name="PagerIndicator"><attr format="enum" name="visibility"><enum name="visible" value="0"/><enum name="invisible" value="1"/></attr><attr format="enum" name="shape"><enum name="oval" value="0"/><enum name="rect" value="1"/></attr><attr format="color" name="selected_color"/><attr format="color" name="unselected_color"/><attr format="reference" name="selected_drawable"/><attr format="reference" name="unselected_drawable"/><attr format="dimension" name="selected_width"/><attr format="dimension" name="selected_height"/><attr format="dimension" name="unselected_width"/><attr format="dimension" name="unselected_height"/><attr format="dimension" name="padding_left"/><attr format="dimension" name="padding_right"/><attr format="dimension" name="padding_top"/><attr format="dimension" name="padding_bottom"/><attr format="dimension" name="selected_padding_left"/><attr format="dimension" name="selected_padding_right"/><attr format="dimension" name="selected_padding_top"/><attr format="dimension" name="selected_padding_bottom"/><attr format="dimension" name="unselected_padding_left"/><attr format="dimension" name="unselected_padding_right"/><attr format="dimension" name="unselected_padding_top"/><attr format="dimension" name="unselected_padding_bottom"/></declare-styleable>
+    <declare-styleable name="SliderLayout"><attr format="enum" name="indicator_visibility"><enum name="visible" value="0"/><enum name="invisible" value="1"/></attr><attr format="boolean" name="auto_cycle"/><attr format="enum" name="pager_animation"><enum name="Default" value="0"/><enum name="Accordion" value="1"/><enum name="Background2Foreground" value="2"/><enum name="CubeIn" value="3"/><enum name="DepthPage" value="4"/><enum name="Fade" value="5"/><enum name="FlipHorizontal" value="6"/><enum name="FlipPage" value="7"/><enum name="Foreground2Background" value="8"/><enum name="RotateDown" value="9"/><enum name="RotateUp" value="10"/><enum name="Stack" value="11"/><enum name="Tablet" value="12"/><enum name="ZoomIn" value="13"/><enum name="ZoomOutSlide" value="14"/><enum name="ZoomOut" value="15"/></attr><attr format="integer" name="pager_animation_span"/></declare-styleable>
+    <declare-styleable name="SwipeBackLayout"><attr format="dimension" name="edge_size"/><attr name="edge_flag"><enum name="left" value="0"/><enum name="right" value="1"/><enum name="bottom" value="2"/><enum name="all" value="3"/></attr><attr format="reference" name="shadow_left"/><attr format="reference" name="shadow_right"/><attr format="reference" name="shadow_bottom"/></declare-styleable>
+    <declare-styleable name="Themes"><attr format="reference" name="SliderStyle"/><attr format="reference" name="PagerIndicatorStyle"/></declare-styleable>
+    <declare-styleable name="stl_SmartTabLayout"><attr format="boolean" name="stl_indicatorAlwaysInCenter"/><attr format="boolean" name="stl_indicatorInFront"/><attr format="enum" name="stl_indicatorInterpolation"><enum name="smart" value="0"/><enum name="linear" value="1"/></attr><attr format="color" name="stl_indicatorColor"/><attr format="reference" name="stl_indicatorColors"/><attr format="dimension" name="stl_indicatorThickness"/><attr format="dimension" name="stl_indicatorCornerRadius"/><attr format="color" name="stl_underlineColor"/><attr format="dimension" name="stl_underlineThickness"/><attr format="color" name="stl_dividerColor"/><attr format="reference" name="stl_dividerColors"/><attr format="dimension" name="stl_dividerThickness"/><attr format="boolean" name="stl_defaultTabTextAllCaps"/><attr format="color" name="stl_defaultTabTextColor"/><attr format="dimension" name="stl_defaultTabTextSize"/><attr format="dimension" name="stl_defaultTabTextHorizontalPadding"/><attr format="dimension" name="stl_defaultTabTextMinWidth"/><attr format="reference" name="stl_customTabTextLayoutId"/><attr format="reference" name="stl_customTabTextViewId"/><attr format="boolean" name="stl_distributeEvenly"/></declare-styleable>
+    <!-- From: file:/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="bottom_ellipsis_height">4dp</dimen>
+    <dimen name="bottom_text_size">12sp</dimen>
+    <dimen name="common_load_more_padding">20dp</dimen>
+    <dimen name="common_load_more_progress_size">30dp</dimen>
+    <dimen name="common_loading_progress_size">35dp</dimen>
+    <dimen name="common_loading_text_lines_spacing">5dp</dimen>
+    <dimen name="common_loading_text_margin">10dp</dimen>
+    <!-- From: file:/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/values/defaults.xml -->
+    <eat-comment/>
+    <dimen name="cpb_default_stroke_width">4dp</dimen>
+    <!-- From: file:/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="default_padding_bottom">8dp</dimen>
+    <dimen name="default_padding_top">8dp</dimen>
+    <dimen name="floating_label_text_size">12sp</dimen>
+    <dimen name="fragment_common_list_smart_tab_indicator_height">3dp</dimen>
+    <dimen name="fragment_common_list_smart_tab_indicator_radius">2dp</dimen>
+    <dimen name="fragment_common_list_smart_tab_padding">20dp</dimen>
+    <dimen name="inner_components_spacing">8dp</dimen>
+    <dimen name="inner_padding_left">0dp</dimen>
+    <dimen name="inner_padding_right">0dp</dimen>
+    <!-- From: file:/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <drawable name="progress_bar_bg">#80FFFFFF</drawable>
+    <drawable name="sr_primary">@color/sr_color_primary</drawable>
+    <drawable name="transparent">@android:color/transparent</drawable>
+    <!-- From: file:/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/values/defaults.xml -->
+    <eat-comment/>
+    <integer name="cpb_default_max_sweep_angle">300</integer>
+    <integer name="cpb_default_min_sweep_angle">20</integer>
+    <!-- From: file:/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Library</string>
+    <string name="common_empty_msg">抱歉,暂未获取到数据!\n请点击屏幕重试~</string>
+    <string name="common_error_msg">抱歉,系统出错了!\n请点击屏幕重试~</string>
+    <string name="common_load_more_end">亲！没有更多了</string>
+    <string name="common_loading_message">正在加载中...</string>
+    <string name="common_no_network_msg">暂未连接上网络!\n请连接后点击屏幕重试~</string>
+    <!-- From: file:/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/values/defaults.xml -->
+    <eat-comment/>
+    <item format="float" name="cpb_default_rotation_speed" type="string">1</item>
+    <item format="float" name="cpb_default_sweep_speed" type="string">1</item>
+    <!-- From: file:/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AndroidImageSlider_Corner_Oval_Orange">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/indicator_corner_bg</item>
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="shape">oval</item>
+        <item name="padding_left">3dp</item>
+        <item name="padding_right">3dp</item>
+        <item name="padding_top">4dp</item>
+        <item name="padding_bottom">4dp</item>
+
+        <item name="selected_color">#f60</item>
+        <item name="unselected_color">#ffffff</item>
+        <item name="selected_width">6dp</item>
+        <item name="selected_height">6dp</item>
+        <item name="unselected_width">6dp</item>
+        <item name="unselected_height">6dp</item>
+    </style>
+    <style name="AppTheme" parent="AppTheme.Base">
+        <item name="actionMenuTextAppearance">@style/MenuTextStyle</item>
+    </style>
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/sr_color_primary</item>
+        <item name="colorPrimaryDark">@color/sr_color_primary_dark</item>
+        <item name="colorAccent">@color/sr_color_primary_dark</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@android:color/transparent</item>
+        <item name="android:windowBackground">@color/sr_window_background</item>
+    </style>
+    <style name="AppTheme.NoneTranslucent" parent="AppTheme.Base">
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+    <style name="BaseDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="CPB" parent="Widget.AppCompat.ProgressBar"/>
+    <style name="CircularProgressBar" parent="CPB">
+        <item name="cpb_color">@color/cpb_default_color</item>
+        <item name="cpb_stroke_width">@dimen/cpb_default_stroke_width</item>
+        <item name="cpb_min_sweep_angle">@integer/cpb_default_min_sweep_angle</item>
+        <item name="cpb_max_sweep_angle">@integer/cpb_default_max_sweep_angle</item>
+        <item name="cpb_sweep_speed">@string/cpb_default_sweep_speed</item>
+        <item name="cpb_rotation_speed">@string/cpb_default_rotation_speed</item>
+    </style>
+    <style name="MenuTextStyle">
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="SwipeBackLayout">
+        <item name="edge_size">50dip</item>
+    </style>
+    <style name="Theme.SmoothProgressBarDefaults" parent="Theme.AppCompat">
+        <item name="cpbStyle">@style/CircularProgressBar</item>
+    </style>
+    <style name="toast_text">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>

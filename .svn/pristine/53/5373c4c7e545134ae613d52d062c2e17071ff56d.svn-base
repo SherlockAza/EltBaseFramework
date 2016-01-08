@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res"><file path="/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/values/strings.xml" qualifiers=""><string name="common_loading_message">正在加载中...</string><string name="common_error_msg">抱歉,系统出错了!\n请点击屏幕重试~</string><string name="common_empty_msg">抱歉,暂未获取到数据!\n请点击屏幕重试~</string><string name="app_name">Library</string><string name="common_load_more_end">亲！没有更多了</string><string name="common_no_network_msg">暂未连接上网络!\n请连接后点击屏幕重试~</string></file><file path="/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/values/defaults.xml" qualifiers=""><integer name="cpb_default_max_sweep_angle">300</integer><item format="float" name="cpb_default_rotation_speed" type="string">1</item><color name="cpb_default_color">#33b5e5</color><integer name="cpb_default_min_sweep_angle">20</integer><dimen name="cpb_default_stroke_width">4dp</dimen><item format="float" name="cpb_default_sweep_speed" type="string">1</item></file><file path="/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/values/smart_attrs.xml" qualifiers=""><declare-styleable name="stl_SmartTabLayout">
+        <attr format="boolean" name="stl_indicatorAlwaysInCenter"/>
+        <attr format="boolean" name="stl_indicatorInFront"/>
+        <attr format="enum" name="stl_indicatorInterpolation">
+            <enum name="smart" value="0"/>
+            <enum name="linear" value="1"/>
+        </attr>
+        <attr format="color" name="stl_indicatorColor"/>
+        <attr format="reference" name="stl_indicatorColors"/>
+        <attr format="dimension" name="stl_indicatorThickness"/>
+        <attr format="dimension" name="stl_indicatorCornerRadius"/>
+        <attr format="color" name="stl_underlineColor"/>
+        <attr format="dimension" name="stl_underlineThickness"/>
+        <attr format="color" name="stl_dividerColor"/>
+        <attr format="reference" name="stl_dividerColors"/>
+        <attr format="dimension" name="stl_dividerThickness"/>
+        <attr format="boolean" name="stl_defaultTabTextAllCaps"/>
+        <attr format="color" name="stl_defaultTabTextColor"/>
+        <attr format="dimension" name="stl_defaultTabTextSize"/>
+        <attr format="dimension" name="stl_defaultTabTextHorizontalPadding"/>
+        <attr format="dimension" name="stl_defaultTabTextMinWidth"/>
+        <attr format="reference" name="stl_customTabTextLayoutId"/>
+        <attr format="reference" name="stl_customTabTextViewId"/>
+        <attr format="boolean" name="stl_distributeEvenly"/>
+    </declare-styleable></file><file path="/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/values/cpb_attrs.xml" qualifiers=""><declare-styleable name="CircularProgressBar">
+        <attr format="reference" name="cpbStyle"/>
+        <attr format="color" name="cpb_color"/>
+        <attr format="reference" name="cpb_colors"/>
+        <attr format="dimension" name="cpb_stroke_width"/>
+        <attr format="integer" name="cpb_min_sweep_angle"/>
+        <attr format="integer" name="cpb_max_sweep_angle"/>
+        <attr format="float" name="cpb_sweep_speed"/>
+        <attr format="float" name="cpb_rotation_speed"/>
+    </declare-styleable></file><file name="message" path="/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/layout/message.xml" qualifiers="" type="layout"/><file name="fade_out" path="/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/anim/fade_out.xml" qualifiers="" type="anim"/><file name="ic_exception" path="/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/drawable-xhdpi/ic_exception.png" qualifiers="xhdpi" type="drawable"/><file name="bottom_in" path="/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/anim/bottom_in.xml" qualifiers="" type="anim"/><file path="/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/values/avloading_attrs.xml" qualifiers=""><declare-styleable name="AVLoadingIndicatorView">
+        <attr name="indicator">
+            <flag name="BallPulse" value="0"/>
+            <flag name="BallGridPulse" value="1"/>
+            <flag name="BallClipRotate" value="2"/>
+            <flag name="BallClipRotatePulse" value="3"/>
+            <flag name="SquareSpin" value="4"/>
+            <flag name="BallClipRotateMultiple" value="5"/>
+            <flag name="BallPulseRise" value="6"/>
+            <flag name="BallRotate" value="7"/>
+            <flag name="CubeTransition" value="8"/>
+            <flag name="BallZigZag" value="9"/>
+            <flag name="BallZigZagDeflect" value="10"/>
+            <flag name="BallTrianglePath" value="11"/>
+            <flag name="BallScale" value="12"/>
+            <flag name="LineScale" value="13"/>
+            <flag name="LineScaleParty" value="14"/>
+            <flag name="BallScaleMultiple" value="15"/>
+            <flag name="BallPulseSync" value="16"/>
+            <flag name="BallBeat" value="17"/>
+            <flag name="LineScalePulseOut" value="18"/>
+            <flag name="LineScalePulseOutRapid" value="19"/>
+            <flag name="BallScaleRipple" value="20"/>
+            <flag name="BallScaleRippleMultiple" value="21"/>
+            <flag name="BallSpinFadeLoader" value="22"/>
+            <flag name="LineSpinFadeLoader" value="23"/>
+            <flag name="TriangleSkewSpin" value="24"/>
+            <flag name="Pacman" value="25"/>
+            <flag name="BallGridBeat" value="26"/>
+            <flag name="SemiCircleSpin" value="27"/>
+        </attr>
+        <attr format="color" name="indicator_color"/>
+    </declare-styleable></file><file path="/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/values/crop_attrs.xml" qualifiers=""><declare-styleable name="CropImageView">
+        <attr format="reference" name="imgSrc"/>
+        <attr name="cropMode">
+            <enum name="ratio_fit_image" value="0"/>
+            <enum name="ratio_4_3" value="1"/>
+            <enum name="ratio_3_4" value="2"/>
+            <enum name="ratio_1_1" value="3"/>
+            <enum name="ratio_16_9" value="4"/>
+            <enum name="ratio_9_16" value="5"/>
+            <enum name="ratio_free" value="6"/>
+            <enum name="ratio_custom" value="7"/>
+            <enum name="circle" value="8"/>
+        </attr>
+        <attr format="color" name="backgroundColor"/>
+        <attr format="color" name="overlayColor"/>
+        <attr format="color" name="frameColor"/>
+        <attr format="color" name="handleColor"/>
+        <attr format="color" name="guideColor"/>
+        <attr name="guideShowMode">
+            <enum name="show_always" value="1"/>
+            <enum name="show_on_touch" value="2"/>
+            <enum name="not_show" value="3"/>
+        </attr>
+        <attr name="handleShowMode">
+            <enum name="show_always" value="1"/>
+            <enum name="show_on_touch" value="2"/>
+            <enum name="not_show" value="3"/>
+        </attr>
+        <attr format="dimension" name="handleSize"/>
+        <attr format="dimension" name="touchPadding"/>
+        <attr format="dimension" name="minFrameSize"/>
+        <attr format="dimension" name="frameStrokeWeight"/>
+        <attr format="dimension" name="guideStrokeWeight"/>
+        <attr format="boolean" name="cropEnabled"/>
+        <attr format="float" name="initialFrameScale"/>
+    </declare-styleable></file><file name="ic_error" path="/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/drawable-xhdpi/ic_error.png" qualifiers="xhdpi" type="drawable"/><file name="right_in" path="/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/anim/right_in.xml" qualifiers="" type="anim"/><file name="push_bottom_out" path="/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/anim/push_bottom_out.xml" qualifiers="" type="anim"/><file name="indicator_layout" path="/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/layout/indicator_layout.xml" qualifiers="" type="layout"/><file name="scale_out" path="/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/anim/scale_out.xml" qualifiers="" type="anim"/><file name="exit_scale" path="/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/anim/exit_scale.xml" qualifiers="" type="anim"/><file path="/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/values/dimens.xml" qualifiers=""><dimen name="inner_padding_left">0dp</dimen><dimen name="common_loading_progress_size">35dp</dimen><dimen name="fragment_common_list_smart_tab_indicator_height">3dp</dimen><dimen name="common_loading_text_lines_spacing">5dp</dimen><dimen name="common_loading_text_margin">10dp</dimen><dimen name="fragment_common_list_smart_tab_indicator_radius">2dp</dimen><dimen name="common_load_more_progress_size">30dp</dimen><dimen name="bottom_text_size">12sp</dimen><dimen name="default_padding_bottom">8dp</dimen><dimen name="bottom_ellipsis_height">4dp</dimen><dimen name="common_load_more_padding">20dp</dimen><dimen name="inner_padding_right">0dp</dimen><dimen name="default_padding_top">8dp</dimen><dimen name="fragment_common_list_smart_tab_padding">20dp</dimen><dimen name="inner_components_spacing">8dp</dimen><dimen name="floating_label_text_size">12sp</dimen></file><file name="dialog_loading" path="/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/layout/dialog_loading.xml" qualifiers="" type="layout"/><file name="top_in" path="/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/anim/top_in.xml" qualifiers="" type="anim"/><file name="left_in" path="/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/anim/left_in.xml" qualifiers="" type="anim"/><file name="loading" path="/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/layout/loading.xml" qualifiers="" type="layout"/><file name="left_out" path="/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/anim/left_out.xml" qualifiers="" type="anim"/><file name="enter_trans" path="/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/anim/enter_trans.xml" qualifiers="" type="anim"/><file path="/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/values/styles.xml" qualifiers=""><style name="CircularProgressBar" parent="CPB">
+        <item name="cpb_color">@color/cpb_default_color</item>
+        <item name="cpb_stroke_width">@dimen/cpb_default_stroke_width</item>
+        <item name="cpb_min_sweep_angle">@integer/cpb_default_min_sweep_angle</item>
+        <item name="cpb_max_sweep_angle">@integer/cpb_default_max_sweep_angle</item>
+        <item name="cpb_sweep_speed">@string/cpb_default_sweep_speed</item>
+        <item name="cpb_rotation_speed">@string/cpb_default_rotation_speed</item>
+    </style><style name="Theme.SmoothProgressBarDefaults" parent="Theme.AppCompat">
+        <item name="cpbStyle">@style/CircularProgressBar</item>
+    </style><style name="MenuTextStyle">
+        <item name="android:textSize">18sp</item>
+    </style><style name="AppTheme.NoneTranslucent" parent="AppTheme.Base">
+        <item name="android:windowIsTranslucent">false</item>
+    </style><style name="AndroidImageSlider_Corner_Oval_Orange">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/indicator_corner_bg</item>
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="shape">oval</item>
+        <item name="padding_left">3dp</item>
+        <item name="padding_right">3dp</item>
+        <item name="padding_top">4dp</item>
+        <item name="padding_bottom">4dp</item>
+
+        <item name="selected_color">#f60</item>
+        <item name="unselected_color">#ffffff</item>
+        <item name="selected_width">6dp</item>
+        <item name="selected_height">6dp</item>
+        <item name="unselected_width">6dp</item>
+        <item name="unselected_height">6dp</item>
+    </style><style name="CPB" parent="Widget.AppCompat.ProgressBar"/><style name="toast_text">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style><style name="BaseDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style><style name="SwipeBackLayout">
+        <item name="edge_size">50dip</item>
+    </style><style name="AppTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/sr_color_primary</item>
+        <item name="colorPrimaryDark">@color/sr_color_primary_dark</item>
+        <item name="colorAccent">@color/sr_color_primary_dark</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@android:color/transparent</item>
+        <item name="android:windowBackground">@color/sr_window_background</item>
+    </style><style name="AppTheme" parent="AppTheme.Base">
+        <item name="actionMenuTextAppearance">@style/MenuTextStyle</item>
+    </style></file><file name="scale_in" path="/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/anim/scale_in.xml" qualifiers="" type="anim"/><file path="/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/values/pla_attrs.xml" qualifiers=""><declare-styleable name="AbsListView">
+
+        <!-- Drawable used to indicate the currently selected item in the list. -->
+        <attr format="color|reference" name="listSelector"/>
+        <!--
+             When set to true, the selector will be drawn over the selected item.
+             Otherwise the selector is drawn behind the selected item. The default
+             value is false.
+        -->
+        <attr format="boolean" name="drawSelectorOnTop"/>
+        <!-- Used by ListView and GridView to stack their content from the bottom. -->
+        <attr format="boolean" name="stackFromBottom"/>
+        <!--
+             When set to true, the list uses a drawing cache during scrolling.
+             This makes the rendering faster but uses more memory. The default
+             value is true.
+        -->
+        <attr format="boolean" name="scrollingCache"/>
+        <!--
+             When set to true, the list will filter results as the user types. The
+             List's adapter must support the Filterable interface for this to work.
+        -->
+        <attr format="boolean" name="textFilterEnabled"/>
+        <!--
+             Sets the transcript mode for the list. In transcript mode, the list
+             scrolls to the bottom to make new items visible when they are added.
+        -->
+        <attr name="transcriptMode">
+
+            <!-- Disables transcript mode. This is the default value. -->
+            <enum name="disabled" value="0"/>
+            <!--
+                 The list will automatically scroll to the bottom when
+                 a data set change notification is received and only if the last item is
+                 already visible on screen.
+            -->
+            <enum name="normal" value="1"/>
+            <!--
+                 The list will automatically scroll to the bottom, no matter what items
+                 are currently visible.
+            -->
+            <enum name="alwaysScroll" value="2"/>
+        </attr>
+        <!--
+             Indicates that this list will always be drawn on top of solid, single-color
+             opaque background. This allows the list to optimize drawing.
+        -->
+        <attr format="color" name="cacheColorHint"/>
+        <!--
+             Enables the fast scroll thumb that can be dragged to quickly scroll through
+             the list.
+        -->
+        <attr format="boolean" name="fastScrollEnabled"/>
+        <!--
+             When set to true, the list will use a more refined calculation
+             method based on the pixels height of the items visible on screen. This
+             property is set to true by default but should be set to false if your adapter
+             will display items of varying heights. When this property is set to true and
+             your adapter displays items of varying heights, the scrollbar thumb will
+             change size as the user scrolls through the list. When set to fale, the list
+             will use only the number of items in the adapter and the number of items visible
+             on screen to determine the scrollbar's properties.
+        -->
+        <attr format="boolean" name="smoothScrollbar"/>
+        <!--
+             Defines the choice behavior for the view. By default, lists do not have
+             any choice behavior. By setting the choiceMode to singleChoice, the list
+             allows up to one item to be in a chosen state. By setting the choiceMode to
+             multipleChoice, the list allows any number of items to be chosen.
+             Finally, by setting the choiceMode to multipleChoiceModal the list allows
+             any number of items to be chosen in a special selection mode.
+             The application will supply a
+             {@link android.widget.AbsListView.MultiChoiceModeListener} using
+             {@link android.widget.AbsListView#setMultiChoiceModeListener} to control the
+             selection mode. This uses the {@link android.view.ActionMode} API.
+        -->
+        <attr name="choiceMode">
+
+            <!-- Normal list that does not indicate choices. -->
+            <enum name="none" value="0"/>
+            <!-- The list allows up to one choice. -->
+            <enum name="singleChoice" value="1"/>
+            <!-- The list allows multiple choices. -->
+            <enum name="multipleChoice" value="2"/>
+            <!-- The list allows multiple choices in a custom selection mode. -->
+            <enum name="multipleChoiceModal" value="3"/>
+        </attr>
+
+        <!--
+             When set to true, the list will always show the fast scroll interface.
+             This setting implies fastScrollEnabled.
+        -->
+        <attr format="boolean" name="fastScrollAlwaysVisible"/>
+    </declare-styleable><attr format="reference" name="absListViewStyle"/><declare-styleable name="PLAMultiColumnListView">
+        <attr format="integer" name="plaColumnNumber"/>
+        <attr format="integer" name="plaLandscapeColumnNumber"/>
+        <attr format="dimension" name="plaColumnPaddingLeft"/>
+        <attr format="dimension" name="plaColumnPaddingRight"/>
+    </declare-styleable><attr format="reference" name="listViewStyle"/><declare-styleable name="ListView">
+
+        <!-- Drawable or color to draw between list items. -->
+        <!-- <attr name="divider" format="reference|color" /> -->
+        <!--
+             Height of the divider. Will use the intrinsic height of the divider if this
+             is not specified.
+        -->
+        <attr format="dimension" name="dividerHeight"/>
+        <!--
+             When set to false, the ListView will not draw the divider after each header view.
+             The default value is true.
+        -->
+        <attr format="boolean" name="headerDividersEnabled"/>
+        <!--
+             When set to false, the ListView will not draw the divider before each footer view.
+             The default value is true.
+        -->
+        <attr format="boolean" name="footerDividersEnabled"/>
+        <!-- Drawable to draw above list content. -->
+        <attr format="reference|color" name="overScrollHeader"/>
+        <!-- Drawable to draw below list content. -->
+
+        <attr format="reference|color" name="overScrollFooter"/>
+
+        <attr format="color" name="plaContentBackground"/>
+    </declare-styleable></file><file name="indicator_corner_bg" path="/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/drawable/indicator_corner_bg.xml" qualifiers="" type="drawable"/><file name="right_out" path="/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/anim/right_out.xml" qualifiers="" type="anim"/><file name="exit_trans" path="/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/anim/exit_trans.xml" qualifiers="" type="anim"/><file path="/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/values/colors.xml" qualifiers=""><color name="base_msg_color">#ff999999</color><color name="sr_color_primary_dark">#000000</color><color name="sr_window_background">#FFFFFF</color><drawable name="sr_primary">@color/sr_color_primary</drawable><drawable name="transparent">@android:color/transparent</drawable><color name="gplus_color_3">#427fed</color><color name="gplus_color_2">#f4b400</color><color name="common_list_smart_tab_underline_color">#FFFFFF</color><color name="sr_color_primary">#000000</color><color name="gplus_color_4">#b23424</color><integer-array name="gplus_colors">
+        <item>@color/gplus_color_1</item>
+        <item>@color/gplus_color_2</item>
+        <item>@color/gplus_color_3</item>
+        <item>@color/gplus_color_4</item>
+    </integer-array><drawable name="progress_bar_bg">#80FFFFFF</drawable><color name="base_bg">#ffeeeeee</color><color name="gplus_color_1">#3e802f</color></file><file name="top_out" path="/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/anim/top_out.xml" qualifiers="" type="anim"/><file name="fade_in" path="/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/anim/fade_in.xml" qualifiers="" type="anim"/><file path="/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/values/glide_attrs.xml" qualifiers=""><declare-styleable name="Themes">
+        <attr format="reference" name="SliderStyle"/>
+        <attr format="reference" name="PagerIndicatorStyle"/>
+    </declare-styleable><declare-styleable name="PagerIndicator">
+        <!-- indicator visibility -->
+        <attr format="enum" name="visibility">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="1"/>
+        </attr>
+
+        <attr format="enum" name="shape">
+            <enum name="oval" value="0"/>
+            <enum name="rect" value="1"/>
+        </attr>
+
+        <attr format="color" name="selected_color"/>
+        <attr format="color" name="unselected_color"/>
+
+        <!-- indicator style -->
+        <attr format="reference" name="selected_drawable"/>
+        <attr format="reference" name="unselected_drawable"/>
+
+        <attr format="dimension" name="selected_width"/>
+        <attr format="dimension" name="selected_height"/>
+
+        <attr format="dimension" name="unselected_width"/>
+        <attr format="dimension" name="unselected_height"/>
+
+        <attr format="dimension" name="padding_left"/>
+        <attr format="dimension" name="padding_right"/>
+        <attr format="dimension" name="padding_top"/>
+        <attr format="dimension" name="padding_bottom"/>
+
+        <attr format="dimension" name="selected_padding_left"/>
+        <attr format="dimension" name="selected_padding_right"/>
+        <attr format="dimension" name="selected_padding_top"/>
+        <attr format="dimension" name="selected_padding_bottom"/>
+
+        <attr format="dimension" name="unselected_padding_left"/>
+        <attr format="dimension" name="unselected_padding_right"/>
+        <attr format="dimension" name="unselected_padding_top"/>
+        <attr format="dimension" name="unselected_padding_bottom"/>
+
+
+    </declare-styleable><declare-styleable name="SliderLayout">
+
+        <!-- indicator visibility -->
+        <attr format="enum" name="indicator_visibility">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="1"/>
+        </attr>
+
+        <attr format="boolean" name="auto_cycle"/>
+
+        <!-- page animation -->
+        <attr format="enum" name="pager_animation">
+            <enum name="Default" value="0">Default</enum>
+            <enum name="Accordion" value="1">Accordion</enum>
+            <enum name="Background2Foreground" value="2">Background2Foreground</enum>
+            <enum name="CubeIn" value="3">CubeIn</enum>
+            <enum name="DepthPage" value="4">DepthPage</enum>
+            <enum name="Fade" value="5">Fade</enum>
+            <enum name="FlipHorizontal" value="6">FlipHorizontal</enum>
+            <enum name="FlipPage" value="7">FlipPage</enum>
+            <enum name="Foreground2Background" value="8">Foreground2Background</enum>
+            <enum name="RotateDown" value="9">RotateDown</enum>
+            <enum name="RotateUp" value="10">RotateUp</enum>
+            <enum name="Stack" value="11">Stack</enum>
+            <enum name="Tablet" value="12">Tablet</enum>
+            <enum name="ZoomIn" value="13">ZoomIn</enum>
+            <enum name="ZoomOutSlide" value="14">ZoomOutSlide</enum>
+            <enum name="ZoomOut" value="15">ZoomOut</enum>
+        </attr>
+
+        <!-- page animation time span -->
+        <attr format="integer" name="pager_animation_span"/>
+
+    </declare-styleable></file><file name="push_bottom_in" path="/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/anim/push_bottom_in.xml" qualifiers="" type="anim"/><file path="/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/values/input_attrs.xml" qualifiers=""><declare-styleable name="MaterialEditText">
+
+        <!-- The base color of the line and the texts. Default is black. -->
+        <attr format="color" name="met_baseColor"/>
+        <!-- The highlight color of the line, and the floating label if the highlightFloatingLabel is true. -->
+        <attr format="color" name="met_primaryColor"/>
+        <!-- How the floating label should be shown. Default is none -->
+        <attr name="met_floatingLabel">
+            <enum name="none" value="0"/>
+            <enum name="normal" value="1"/>
+            <enum name="highlight" value="2"/>
+        </attr>
+        <!-- The color for when something is wrong.(e.g. exceeding max characters) -->
+        <attr format="color" name="met_errorColor"/>
+        <!-- Min characters count limit. 0 means no limit. -->
+        <attr format="integer" name="met_minCharacters"/>
+        <!-- max Characters count limit. 0 means no limit. -->
+        <attr format="integer" name="met_maxCharacters"/>
+        <!-- Whether to show the bottom ellipsis in singleLine mode -->
+        <attr format="boolean" name="met_singleLineEllipsis"/>
+        <!-- Reserved bottom text lines count, no matter if there is some helper/error text. -->
+        <attr format="integer" name="met_minBottomTextLines"/>
+        <!-- Helper text at the bottom -->
+        <attr format="string" name="met_helperText"/>
+        <!-- Helper text color -->
+        <attr format="color" name="met_helperTextColor"/>
+        <!-- Font of the paint used to draw accent texts -->
+        <attr format="string" name="met_accentTypeface"/>
+        <!-- Font used on view -->
+        <attr format="string" name="met_typeface"/>
+        <!-- Custom float label text -->
+        <attr format="string" name="met_floatingLabelText"/>
+        <!-- spacing between the main text and the floating label -->
+        <attr format="dimension" name="met_floatingLabelPadding"/>
+        <!-- Hide underline -->
+        <attr format="boolean" name="met_hideUnderline"/>
+        <!-- Underline's color -->
+        <attr format="color" name="met_underlineColor"/>
+        <!-- Auto validate -->
+        <attr format="boolean" name="met_autoValidate"/>
+        <!-- Left icon -->
+        <attr format="reference" name="met_iconLeft"/>
+        <!-- Right icon -->
+        <attr format="reference" name="met_iconRight"/>
+        <!-- Padding between icon(s) and the main area. 8dp by default. -->
+        <attr format="dimension" name="met_iconPadding"/>
+        <!-- Clear button -->
+        <attr format="boolean" name="met_clearButton"/>
+        <!-- The floating label's text size. 12sp by default. -->
+        <attr format="dimension" name="met_floatingLabelTextSize"/>
+        <!-- The floating label's text color. -1 by default. -->
+        <attr format="color" name="met_floatingLabelTextColor"/>
+        <!-- The bottom texts' size. 12sp by default. -->
+        <attr format="dimension" name="met_bottomTextSize"/>
+        <!-- Always show the floating label, instead of animating it in/out. False by default. -->
+        <attr format="boolean" name="met_floatingLabelAlwaysShown"/>
+        <!-- Always show the helper text, no matter if the edit text is focused. False by default. -->
+        <attr format="boolean" name="met_helperTextAlwaysShown"/>
+        <!-- Whether use animation to show/hide the floating label. True by default. -->
+        <attr format="boolean" name="met_floatingLabelAnimating"/>
+        <!-- Text color -->
+        <attr format="color" name="met_textColor"/>
+        <!-- Hint Text Color -->
+        <attr format="color" name="met_textColorHint"/>
+        <!-- Auto validate on focus lost. False by default. -->
+        <attr format="boolean" name="met_validateOnFocusLost"/>
+        <!-- Whether check the characters count at the beginning it's shown. True by default. -->
+        <attr format="boolean" name="met_checkCharactersCountAtBeginning"/>
+    </declare-styleable></file><file name="enter_scale" path="/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/anim/enter_scale.xml" qualifiers="" type="anim"/><file name="bottom_out" path="/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/anim/bottom_out.xml" qualifiers="" type="anim"/><file path="/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/values/swipeback_attrs.xml" qualifiers=""><declare-styleable name="SwipeBackLayout">
+        <attr format="dimension" name="edge_size"/>
+        <attr name="edge_flag">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+            <enum name="bottom" value="2"/>
+            <enum name="all" value="3"/>
+        </attr>
+        <attr format="reference" name="shadow_left"/>
+        <attr format="reference" name="shadow_right"/>
+        <attr format="reference" name="shadow_bottom"/>
+    </declare-styleable><attr format="reference" name="SwipeBackLayoutStyle"/></file><file name="swipeback_layout" path="/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/layout/swipeback_layout.xml" qualifiers="" type="layout"/><file name="render_type_default" path="/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/layout/render_type_default.xml" qualifiers="" type="layout"/><file name="met_ic_clear" path="/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/drawable-xhdpi/met_ic_clear.png" qualifiers="xhdpi" type="drawable"/><file name="render_type_text" path="/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/layout/render_type_text.xml" qualifiers="" type="layout"/><file name="slider_layout" path="/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/layout/slider_layout.xml" qualifiers="" type="layout"/><file name="common_toolbar" path="/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/layout/common_toolbar.xml" qualifiers="" type="layout"/><file name="common_load_more_footer" path="/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/main/res/layout/common_load_more_footer.xml" qualifiers="" type="layout"/></source><source path="/Users/addison/Documents/as_workspace/EltBaseFramework/library/build/generated/res/rs/release"/><source path="/Users/addison/Documents/as_workspace/EltBaseFramework/library/build/generated/res/resValues/release"/></dataSet><dataSet config="release"><source path="/Users/addison/Documents/as_workspace/EltBaseFramework/library/src/release/res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="SliderLayout"><attr format="enum" name="indicator_visibility"><enum name="visible" value="0"/><enum name="invisible" value="1"/></attr><attr format="boolean" name="auto_cycle"/><attr format="enum" name="pager_animation"><enum name="Default" value="0"/><enum name="Accordion" value="1"/><enum name="Background2Foreground" value="2"/><enum name="CubeIn" value="3"/><enum name="DepthPage" value="4"/><enum name="Fade" value="5"/><enum name="FlipHorizontal" value="6"/><enum name="FlipPage" value="7"/><enum name="Foreground2Background" value="8"/><enum name="RotateDown" value="9"/><enum name="RotateUp" value="10"/><enum name="Stack" value="11"/><enum name="Tablet" value="12"/><enum name="ZoomIn" value="13"/><enum name="ZoomOutSlide" value="14"/><enum name="ZoomOut" value="15"/></attr><attr format="integer" name="pager_animation_span"/></declare-styleable><declare-styleable name="Themes"><attr format="reference" name="SliderStyle"/><attr format="reference" name="PagerIndicatorStyle"/></declare-styleable><declare-styleable name="stl_SmartTabLayout"><attr format="boolean" name="stl_indicatorAlwaysInCenter"/><attr format="boolean" name="stl_indicatorInFront"/><attr format="enum" name="stl_indicatorInterpolation"><enum name="smart" value="0"/><enum name="linear" value="1"/></attr><attr format="color" name="stl_indicatorColor"/><attr format="reference" name="stl_indicatorColors"/><attr format="dimension" name="stl_indicatorThickness"/><attr format="dimension" name="stl_indicatorCornerRadius"/><attr format="color" name="stl_underlineColor"/><attr format="dimension" name="stl_underlineThickness"/><attr format="color" name="stl_dividerColor"/><attr format="reference" name="stl_dividerColors"/><attr format="dimension" name="stl_dividerThickness"/><attr format="boolean" name="stl_defaultTabTextAllCaps"/><attr format="color" name="stl_defaultTabTextColor"/><attr format="dimension" name="stl_defaultTabTextSize"/><attr format="dimension" name="stl_defaultTabTextHorizontalPadding"/><attr format="dimension" name="stl_defaultTabTextMinWidth"/><attr format="reference" name="stl_customTabTextLayoutId"/><attr format="reference" name="stl_customTabTextViewId"/><attr format="boolean" name="stl_distributeEvenly"/></declare-styleable><declare-styleable name="AbsListView"><attr format="color|reference" name="listSelector"/><attr format="boolean" name="drawSelectorOnTop"/><attr format="boolean" name="stackFromBottom"/><attr format="boolean" name="scrollingCache"/><attr format="boolean" name="textFilterEnabled"/><attr name="transcriptMode"><enum name="disabled" value="0"/><enum name="normal" value="1"/><enum name="alwaysScroll" value="2"/></attr><attr format="color" name="cacheColorHint"/><attr format="boolean" name="fastScrollEnabled"/><attr format="boolean" name="smoothScrollbar"/><attr name="choiceMode"><enum name="none" value="0"/><enum name="singleChoice" value="1"/><enum name="multipleChoice" value="2"/><enum name="multipleChoiceModal" value="3"/></attr><attr format="boolean" name="fastScrollAlwaysVisible"/></declare-styleable><declare-styleable name="AVLoadingIndicatorView"><attr name="indicator"><flag name="BallPulse" value="0"/><flag name="BallGridPulse" value="1"/><flag name="BallClipRotate" value="2"/><flag name="BallClipRotatePulse" value="3"/><flag name="SquareSpin" value="4"/><flag name="BallClipRotateMultiple" value="5"/><flag name="BallPulseRise" value="6"/><flag name="BallRotate" value="7"/><flag name="CubeTransition" value="8"/><flag name="BallZigZag" value="9"/><flag name="BallZigZagDeflect" value="10"/><flag name="BallTrianglePath" value="11"/><flag name="BallScale" value="12"/><flag name="LineScale" value="13"/><flag name="LineScaleParty" value="14"/><flag name="BallScaleMultiple" value="15"/><flag name="BallPulseSync" value="16"/><flag name="BallBeat" value="17"/><flag name="LineScalePulseOut" value="18"/><flag name="LineScalePulseOutRapid" value="19"/><flag name="BallScaleRipple" value="20"/><flag name="BallScaleRippleMultiple" value="21"/><flag name="BallSpinFadeLoader" value="22"/><flag name="LineSpinFadeLoader" value="23"/><flag name="TriangleSkewSpin" value="24"/><flag name="Pacman" value="25"/><flag name="BallGridBeat" value="26"/><flag name="SemiCircleSpin" value="27"/></attr><attr format="color" name="indicator_color"/></declare-styleable><declare-styleable name="CropImageView"><attr format="reference" name="imgSrc"/><attr name="cropMode"><enum name="ratio_fit_image" value="0"/><enum name="ratio_4_3" value="1"/><enum name="ratio_3_4" value="2"/><enum name="ratio_1_1" value="3"/><enum name="ratio_16_9" value="4"/><enum name="ratio_9_16" value="5"/><enum name="ratio_free" value="6"/><enum name="ratio_custom" value="7"/><enum name="circle" value="8"/></attr><attr format="color" name="backgroundColor"/><attr format="color" name="overlayColor"/><attr format="color" name="frameColor"/><attr format="color" name="handleColor"/><attr format="color" name="guideColor"/><attr name="guideShowMode"><enum name="show_always" value="1"/><enum name="show_on_touch" value="2"/><enum name="not_show" value="3"/></attr><attr name="handleShowMode"><enum name="show_always" value="1"/><enum name="show_on_touch" value="2"/><enum name="not_show" value="3"/></attr><attr format="dimension" name="handleSize"/><attr format="dimension" name="touchPadding"/><attr format="dimension" name="minFrameSize"/><attr format="dimension" name="frameStrokeWeight"/><attr format="dimension" name="guideStrokeWeight"/><attr format="boolean" name="cropEnabled"/><attr format="float" name="initialFrameScale"/></declare-styleable><declare-styleable name="PLAMultiColumnListView"><attr format="integer" name="plaColumnNumber"/><attr format="integer" name="plaLandscapeColumnNumber"/><attr format="dimension" name="plaColumnPaddingLeft"/><attr format="dimension" name="plaColumnPaddingRight"/></declare-styleable><declare-styleable name="MaterialEditText"><attr format="color" name="met_baseColor"/><attr format="color" name="met_primaryColor"/><attr name="met_floatingLabel"><enum name="none" value="0"/><enum name="normal" value="1"/><enum name="highlight" value="2"/></attr><attr format="color" name="met_errorColor"/><attr format="integer" name="met_minCharacters"/><attr format="integer" name="met_maxCharacters"/><attr format="boolean" name="met_singleLineEllipsis"/><attr format="integer" name="met_minBottomTextLines"/><attr format="string" name="met_helperText"/><attr format="color" name="met_helperTextColor"/><attr format="string" name="met_accentTypeface"/><attr format="string" name="met_typeface"/><attr format="string" name="met_floatingLabelText"/><attr format="dimension" name="met_floatingLabelPadding"/><attr format="boolean" name="met_hideUnderline"/><attr format="color" name="met_underlineColor"/><attr format="boolean" name="met_autoValidate"/><attr format="reference" name="met_iconLeft"/><attr format="reference" name="met_iconRight"/><attr format="dimension" name="met_iconPadding"/><attr format="boolean" name="met_clearButton"/><attr format="dimension" name="met_floatingLabelTextSize"/><attr format="color" name="met_floatingLabelTextColor"/><attr format="dimension" name="met_bottomTextSize"/><attr format="boolean" name="met_floatingLabelAlwaysShown"/><attr format="boolean" name="met_helperTextAlwaysShown"/><attr format="boolean" name="met_floatingLabelAnimating"/><attr format="color" name="met_textColor"/><attr format="color" name="met_textColorHint"/><attr format="boolean" name="met_validateOnFocusLost"/><attr format="boolean" name="met_checkCharactersCountAtBeginning"/></declare-styleable><declare-styleable name="CircularProgressBar"><attr format="reference" name="cpbStyle"/><attr format="color" name="cpb_color"/><attr format="reference" name="cpb_colors"/><attr format="dimension" name="cpb_stroke_width"/><attr format="integer" name="cpb_min_sweep_angle"/><attr format="integer" name="cpb_max_sweep_angle"/><attr format="float" name="cpb_sweep_speed"/><attr format="float" name="cpb_rotation_speed"/></declare-styleable><declare-styleable name="SwipeBackLayout"><attr format="dimension" name="edge_size"/><attr name="edge_flag"><enum name="left" value="0"/><enum name="right" value="1"/><enum name="bottom" value="2"/><enum name="all" value="3"/></attr><attr format="reference" name="shadow_left"/><attr format="reference" name="shadow_right"/><attr format="reference" name="shadow_bottom"/></declare-styleable><declare-styleable name="ListView"><attr format="dimension" name="dividerHeight"/><attr format="boolean" name="headerDividersEnabled"/><attr format="boolean" name="footerDividersEnabled"/><attr format="reference|color" name="overScrollHeader"/><attr format="reference|color" name="overScrollFooter"/><attr format="color" name="plaContentBackground"/></declare-styleable><declare-styleable name="PagerIndicator"><attr format="enum" name="visibility"><enum name="visible" value="0"/><enum name="invisible" value="1"/></attr><attr format="enum" name="shape"><enum name="oval" value="0"/><enum name="rect" value="1"/></attr><attr format="color" name="selected_color"/><attr format="color" name="unselected_color"/><attr format="reference" name="selected_drawable"/><attr format="reference" name="unselected_drawable"/><attr format="dimension" name="selected_width"/><attr format="dimension" name="selected_height"/><attr format="dimension" name="unselected_width"/><attr format="dimension" name="unselected_height"/><attr format="dimension" name="padding_left"/><attr format="dimension" name="padding_right"/><attr format="dimension" name="padding_top"/><attr format="dimension" name="padding_bottom"/><attr format="dimension" name="selected_padding_left"/><attr format="dimension" name="selected_padding_right"/><attr format="dimension" name="selected_padding_top"/><attr format="dimension" name="selected_padding_bottom"/><attr format="dimension" name="unselected_padding_left"/><attr format="dimension" name="unselected_padding_right"/><attr format="dimension" name="unselected_padding_top"/><attr format="dimension" name="unselected_padding_bottom"/></declare-styleable></configuration></mergedItems></merger>

@@ -1,0 +1,17 @@
+package com.elt.framework;
+
+import com.elt.framework.library.BaseApplication;
+import com.elt.framework.library.utils.log.Elog;
+
+/**
+ * 作者：addison on 14/12/15 14:47
+ * 邮箱：gengxin@elongtian.com
+ */
+public class EltApplication extends BaseApplication {
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        Elog.init(true);
+
+    }
+}

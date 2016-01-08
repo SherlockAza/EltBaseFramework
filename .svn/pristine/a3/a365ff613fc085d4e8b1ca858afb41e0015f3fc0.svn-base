@@ -1,0 +1,22 @@
+package com.elt.framework.library.utils;
+
+/**
+ * 作者：addison on 11/12/15 15:01
+ * 邮箱：gengxin@elongtian.com
+ */
+public class CommonUtils {
+
+    /**
+     * 字符串为空判断
+     * @param str
+     * @return
+     */
+    public static boolean isEmpty(String str) {
+        if (str == null || str.length() == 0 || str.equalsIgnoreCase("null")
+                || str.isEmpty() || str.equals("")) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+}
